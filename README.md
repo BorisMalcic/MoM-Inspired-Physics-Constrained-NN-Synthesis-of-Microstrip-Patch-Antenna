@@ -17,7 +17,7 @@ Important notes:
 -----------------------------------------------------------------------------------
 This is NOT a rigorous 3D full-wave solver like are e.g. HFSS/CST/WIPL-D.
 
-our project is more an educational/research scaffold with a proxy Green operator and proxy S11 model. The coax feed (here we got the most of error during testing/verification) is modeled as a localized coax-like excitation surrogate, not as a full 3D connector. 
+Our project is more an educational/research scaffold with a proxy Green operator and proxy S11 model. The coax feed (here we got the most of error during testing/verification) is modeled as a localized coax-like excitation surrogate, not as a full 3D connector. 
 
 For example, a plain single FR4 patch at 2.4 GHz generally will not deliver 15 dBi gain (more realistic is 5-7 dBi)
 but, if you want 15 dbi then we usually need an MPA array, a superstrate/metasurface, or a higher-directivity structure.
