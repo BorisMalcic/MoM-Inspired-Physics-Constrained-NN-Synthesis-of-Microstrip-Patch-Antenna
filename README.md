@@ -1,11 +1,15 @@
-# MoM-Inspired-Physics-Constrained-NN-Synthesis-of-Microstrip-Patch-Antenna
-------------------------------------------------------------------------------
+##########################
+Imoportant notice:
+AI-assisted development -> This repository was developed with assistance help from OpenAI ChatGPT and Google Gemini. 
+All code, algorithms, design decisions, validation, testing, and the final implementation were designed, performed and verified by the author.
+#########################
 
-Aligned single-patch MoM + NN project for MPA synthesis at 2.4 GHz
-================================================
+# MoM-Inspired-Physics-Constrained-NN-Synthesis-of-Microstrip-Patch Antenna
+
+Aligned single-patch MoM & NN project for MPA synthesis at 2.4 GHz
+======================================
 
 Brief preview:
------------------------------------------------------------------------------
 This project is more a runnable educational MoM-style proxy project for a single coax-fed rectangular MPA (Microstrip Patch Antenna) on FR4 around 2.4 GHz. It combines:
 
 - a lightweight Method-of-Moments-style electromagnetic proxy core,
@@ -14,7 +18,7 @@ This project is more a runnable educational MoM-style proxy project for a single
 - and plot generation for return loss, VSWR, directivity, radiation pattern, E/H cuts, and a 3D polar plot.
 
 Important notes:
------------------------------------------------------------------------------------
+----------------------------------
 This is NOT a rigorous 3D full-wave solver like are e.g. HFSS/CST/WIPL-D.
 
 Our project is more an educational/research scaffold with a proxy Green operator and proxy S11 model. The coax feed (here we got the most of error during testing/verification) is modeled as a localized coax-like excitation surrogate, not as a full 3D connector. 
@@ -24,8 +28,8 @@ but, if you want 15 dbi then we usually need an MPA array, a superstrate/metasur
 
 The project still accepts the 15 dBi request as an aspirational target, but in practice it maximizes gain within a more realistic single-patch regime while prioritizing 2.4 GHz matching.
 
-Baseline geometry used in this version
---------------------------------------------------------------------------------
+Baseline geometry used in this version:
+--------------------------------------
 - Single patch (not an array)
 - Substrate: FR4_epoxy-like, eps_r = 4.4, tan(delta) = 0.02
 - Substrate thickness: 1.6 mm
